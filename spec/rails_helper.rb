@@ -22,7 +22,6 @@ RSpec.configure do |config|
     DatabaseCleaner.clean_with(:truncation)
     begin
       DatabaseCleaner.start
-      FactoryGirl.lint if ENV['CI']
     ensure
       DatabaseCleaner.clean
     end
