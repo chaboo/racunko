@@ -1,6 +1,8 @@
 class WebhooksController < ApplicationController
   skip_before_action :verify_authenticity_token
 
+  include Bot
+
   def create
     dispatcher.new(webhook, user).process
     head :ok
@@ -11,7 +13,7 @@ class WebhooksController < ApplicationController
   end
 
   def dispatcher
-    BotMessageDispatcher
+    ::Bot::MessageDispatcher
   end
 
   def from
