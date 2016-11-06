@@ -6,10 +6,12 @@ default: &default
 development:
   <<: *default
   database: racunko_development
+  port: 5432
 
 test:
   <<: *default
   database: racunko_test
+  port: 5432
 
 production:
   <<: *default
