@@ -27,9 +27,18 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'dotenv-rails', '2.1.1'
   gem 'rspec-rails', '3.5.2'
+  gem 'factory_girl_rails', '4.7.0'
+  gem 'faker', '1.4.3'
   gem 'foreman', '0.82.0'
   gem 'rack-mini-profiler', '0.10.1'
   gem 'awesome_print', '1.6.1'
+end
+
+group :test do
+  gem 'database_cleaner', '1.2.0'
+  gem 'shoulda-matchers', '2.8.0'
+  gem 'api_matchers', '0.4.0'
+  gem 'timecop', '0.7.1'
 end
 
 group :development do

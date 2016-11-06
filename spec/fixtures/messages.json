@@ -1,0 +1,154 @@
+{
+  "message_card": {
+    "update_id": 100000,
+    "message": {
+      "message_id": 14,
+      "from": {
+        "id": 500500,
+        "first_name": "John",
+        "last_name": "Doe"
+      },
+      "chat": {
+        "id": 500500,
+        "first_name": "John",
+        "last_name": "Doe",
+        "type": "private"
+      },
+      "date": 1478417858,
+      "text": "Kartica: 50000\nIznos: 7,34 EUR\nVrijeme: 13.10.2016 10:49:16\nStatus: odobreno\nOpis: PER SEMPRE             PODGORICA      ME\nRaspolozivo: 252,72 EUR"
+    },
+    "webhook": {
+      "update_id": 100000,
+      "message": {
+        "message_id": 14,
+        "from": {
+          "id": 500500,
+          "first_name": "John",
+          "last_name": "Doe"
+        },
+        "chat": {
+          "id": 500500,
+          "first_name": "John",
+          "last_name": "Doe",
+          "type": "private"
+        },
+        "date": 1478417858,
+        "text": "Kartica: 50000\nIznos: 7,34 EUR\nVrijeme: 13.10.2016 10:49:16\nStatus: odobreno\nOpis: PER SEMPRE             PODGORICA      ME\nRaspolozivo: 252,72 EUR"
+      }
+    }
+  },
+  "message_internal": {
+    "update_id": 100010,
+    "message": {
+      "message_id": 15,
+      "from": {
+        "id": 500500,
+        "first_name": "John",
+        "last_name": "Doe"
+      },
+      "chat": {
+        "id": 500500,
+        "first_name": "John",
+        "last_name": "Doe",
+        "type": "private"
+      },
+      "date": 1478417895,
+      "text": "Odliv Naplata naknada sa Vaseg racuna broj 520032000000000001 u iznosu od 2,60 EUR. Raspolozivo: 244,07 EUR."
+    },
+    "webhook": {
+      "update_id": 100010,
+      "message": {
+        "message_id": 15,
+        "from": {
+          "id": 500500,
+          "first_name": "John",
+          "last_name": "Doe"
+        },
+        "chat": {
+          "id": 500500,
+          "first_name": "John",
+          "last_name": "Doe",
+          "type": "private"
+        },
+        "date": 1478417895,
+        "text": "Odliv Naplata naknada sa Vaseg racuna broj 520032000000000001 u iznosu od 2,60 EUR. Raspolozivo: 244,07 EUR."
+      }
+    }
+  },
+  "message_external": {
+    "update_id": 100020,
+    "message": {
+      "message_id": 16,
+      "from": {
+        "id": 500500,
+        "first_name": "John",
+        "last_name": "Doe"
+      },
+      "chat": {
+        "id": 500500,
+        "first_name": "John",
+        "last_name": "Doe",
+        "type": "private"
+      },
+      "date": 1478417946,
+      "text": "Priliv sa racuna SOME COMPANY broj   na Vas racun broj 520032000000000002 u iznosu od 1.000,00 USD. Raspolozivo: 1.001,20 USD."
+    },
+    "webhook": {
+      "update_id": 100020,
+      "message": {
+        "message_id": 16,
+        "from": {
+          "id": 500500,
+          "first_name": "John",
+          "last_name": "Doe"
+        },
+        "chat": {
+          "id": 500500,
+          "first_name": "John",
+          "last_name": "Doe",
+          "type": "private"
+        },
+        "date": 1478417946,
+        "text": "Priliv sa racuna SOME COMPANY broj   na Vas racun broj 520032000000000002 u iznosu od 1.000,00 USD. Raspolozivo: 1.001,20 USD."
+      }
+    }
+  },
+  "message_transfer": {
+    "update_id": 100030,
+    "message": {
+      "message_id": 17,
+      "from": {
+        "id": 500500,
+        "first_name": "John",
+        "last_name": "Doe"
+      },
+      "chat": {
+        "id": 500500,
+        "first_name": "John",
+        "last_name": "Doe",
+        "type": "private"
+      },
+      "date": 1478417982,
+      "text": "Priliv sa racuna DUSAN TADIC broj 520032000000000050 na Vas racun broj 520032000000000001 u iznosu od 180,00 EUR. Raspolozivo: 424,11 EUR."
+    },
+    "webhook": {
+      "update_id": 100030,
+      "message": {
+        "message_id": 17,
+        "from": {
+          "id": 500500,
+          "first_name": "John",
+          "last_name": "Doe"
+        },
+        "chat": {
+          "id": 500500,
+          "first_name": "John",
+          "last_name": "Doe",
+          "type": "private"
+        },
+        "date": 1478417982,
+        "text": "Priliv sa racuna DUSAN TADIC broj 520032000000000050 na Vas racun broj 520032000000000001 u iznosu od 180,00 EUR. Raspolozivo: 424,11 EUR."
+      }
+    }
+  }
+}
